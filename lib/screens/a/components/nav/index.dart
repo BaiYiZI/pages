@@ -13,7 +13,6 @@ class Nav extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // color: meColors.colors["bgc"],
       decoration: BoxDecoration(
         color: meColors.colors["nav_bgc"],
         border: const Border(
