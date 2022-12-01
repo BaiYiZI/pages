@@ -20,15 +20,15 @@ class Body extends StatelessWidget {
         children: [
           mePlaceholder.Placeholder(flex: 3),
           const Expanded(
-            flex: 36,
+            flex: 38,
             child: BodyLeft(),
           ),
-          mePlaceholder.Placeholder(flex: 2),
+          mePlaceholder.Placeholder(flex: 1),
           const Expanded(
             flex: 22,
             child: BodyCenter(),
           ),
-          mePlaceholder.Placeholder(flex: 2),
+          mePlaceholder.Placeholder(flex: 1),
           const Expanded(
             flex: 32,
             child: BodyRight(),
